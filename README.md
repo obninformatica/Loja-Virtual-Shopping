@@ -2,14 +2,14 @@
 
 -----------------------------
 
-Sistema para criar de uma loja Virtual estilo um shopping,
+Sistema para criar de uma loja Virtual estilo shopping.
 Paínel inicial de produtos com preços e promoções.
 Shopping de compras e consultas de produtos e preços
 Cadastro de clientes e formularios para contato.  
 
 -----------------------------
 Este sistema incorpora o composer.
-Aplicativo PHP/PDO procedimento estilo MVC
+Aplicativo PHP/PDO procedimento estilo MVC (Models / Viewers / Controllers)
 - Model
 - View
 - Controller
