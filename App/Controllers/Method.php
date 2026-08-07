@@ -29,7 +29,7 @@ class Method
 
     public function method($object)
     {
-        dump($object);
+        //dump($object);
         if(method_exists($object, $this->getMethod()))
         {
             return $this->getMethod();

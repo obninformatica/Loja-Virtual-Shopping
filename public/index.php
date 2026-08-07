@@ -1,5 +1,5 @@
 <?php
-//print_r($_SERVER["REQUEST_URI"]);
+
 if(preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"]))
 {
 	print_r('Material sensivel a defeitos');
@@ -8,7 +8,7 @@ if(preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"]))
 else
 {
 	session_start();
-
+	
 	define('DEFAULT_CONTROLLER','home');
 	define('DEFAULT_METHOD','index');
 

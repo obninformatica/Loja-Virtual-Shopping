@@ -39,8 +39,6 @@ class Controller
 		return self::ERROR_CONTROLLER;
 	}
 
-
-
 // localhost/produto/calca
 //$controller = 'produto';
 //$metodo = 'calca';
