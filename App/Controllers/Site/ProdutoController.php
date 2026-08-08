@@ -12,15 +12,15 @@ use App\Controllers\BaseController;
 class ProdutoController extends BaseController
 {
 
-    public function index()
+    public function index($parameters)
     {
-        echo "Estou aqui no index";
+        dump($parameters[2]);
     }
 
 
-    public function calca()
+    public function calca($parameters)
     {
-        echo "Agora estou usando calças";
+       dump($parameters[3]);
     }
 
 }
