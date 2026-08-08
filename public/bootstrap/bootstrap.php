@@ -4,10 +4,12 @@ use App\Classes\Parameters;
 
 //$parameters = new Parameters();
 //dump($parameters->explodeParameters());
-
 $template = new Template();
 $twig = $template->init();
 
+//dump('http://'.$_SERVER['SERVER_NAME']);
+
+$twig->addFunction($site_url);
 
 
 /*

@@ -3,10 +3,101 @@
 <head lang="pt-br">
     <meta charset="UTF-8">
     <title>{{ titulo }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site_url() }}/assets/css/semantic-ui/2.1.8/components/table.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site_url() }}/assets/css/semantic-ui/2.1.8/components/button.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site_url() }}/assets/css/semantic-ui/2.1.8/components/form.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site_url() }}/assets/css/style.css" />
+    <script type="text/javascript" src="{{ site_url() }}/assets/js/boxOver.js"></script>
 </head>
 <body>
+    <div id="main_container">
+        <div class="top_bar">
+            <!-- include do top -->
+		</div><!-- End top_bar -->
+		<div id="main_content">
+			<div id="menu_tab">
+				<!-- Include do menu -->
+			</div><!-- End menu_tab -->
+			<div class="crumb_navigation">
+				<!-- breadcrumb -->
+			</div><!-- End crumb_navigation -->
+			<div class="left_content">
+				<div class="title_box">Categorias</div>
+				<ul class="left_menu">
+					<!-- include left_menu -->
+				</ul>
+				<div class="title_box">Promoção</div>
+				<div class="border_box">
+					<div class="product_title"><!-- nome do produto em promoção --></div>
+					<div class="product_image"><!-- imagem do produto em promoção --></div>
+					<div class="prod_price"><!-- preço do produto --></div>
+				</div>
+				<div class="title_box">Newsletter</div>
+				<div class="border_box">
+					<input class="newsletter" type="text" name="newsletter" value="Seu Email"/>
+					<a class="join" href="">Cadastrar Email</a>
+					<div class="banner_adds">
+						<a href=""><!-- banner promoção, propaganda --></a>
+					</div>
+				</div>
+			</div><!-- End left_content -->
+			
+			<div class="center_content">
+				{% block content %}{% end block %}
+			</div><!-- End center_content -->
+			
+			<div class="right_content">
+				<div class="shopping_cart">
+					<div class="cart_title">Carrinho de Compras</div>
+					<div class="cart_details">
+						<span id="products_cart"><!-- número de produtos no carrinho --></span> <br/>
+						<span class="border_cart"></span>Total:
+						<span class="price"><!-- Total de compras do carrinho --></span>
+					</div>
+					<div class="cart_icon">
+						<!-- icone do carrinho -->
+						<a href="" title="header=[Checkout] body=[&nbsp;] fade=[on]"></a>
+					</div>
+				</div><!-- End shopping_cart -->
+				
+				<div class="title_box">Novidades</div>
+                <div class="border_box">
+                    <div class="product_title"><!-- titulo do produto novidade --></div>
+                    <div class="product_image"><!-- imagem do produto que e novidade --></div>
+                    <div class="prod_price">
+                        <div class="price"><!-- preco do produto que e novidade --></div>
+                    </div>
+                </div>
+                <div class="title_box">Marcas</div><!-- include das marcas -->
+                <div class="banner_ads">
+                    <!-- banner de promocao, propaganda -->
+                </div>
 
-    {% block site_content %}{% endblock %}
+			</div><!-- End right_content -->
+		
+		</div><!-- End main_content -->
+		
+		<div class="footer">
+			<div class="left_footer">
+				<img src="images/footer_logo.png" alt="" width="170" height="49"/>
+			</div>
+			<div class="center_footer">
+                Loja asolucoesweb. Todos direitos reservados {{ 'now' | date('d/m/Y') }} <br/>
+                <img src="images/csscreme.jpg" alt="csscreme" border="0" /><br />
+				<img src="images/payment.gif" alt="" />
+			</div>
+			<div class="right_footer">
+				<a href="/">home</a>
+				<a href="/">about</a>
+				<a href="/">sitemap</a>
+				<a href="/">rss</a>
+				<a href="contact.html">contact us</a>
+			</div>
+		</div><!-- End footer -->
+		
+	</div><!-- End main_container -->
+    <script type="text/javascript" src="{{ site_url }}/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="{{ site_url }}/assets/js/site/carrinho.js"></script>
 
 </body>
 </html>
