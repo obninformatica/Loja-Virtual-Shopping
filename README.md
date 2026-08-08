@@ -8,7 +8,6 @@ Shopping de compras e consultas de produtos e preços
 Cadastro de clientes e formularios para contato.  
 
 -----------------------------
-Este sistema incorpora o composer.
 Aplicativo PHP/PDO procedimento estilo MVC (Models / Viewers / Controllers)
 - Model
 - View
@@ -32,9 +31,10 @@ Aplicativo PHP/PDO procedimento estilo MVC (Models / Viewers / Controllers)
 	- Var-dumper
 	- Twig
 ---------------------------
+Este sistema usa o composer.
 ## Instalar o composer:
 
-Em primeiro plano, instalar o composer:
+Em primeiro plano, instale o composer de acordo com o sistema operacional:
 - https://getcomposer.org/
 
 ## Instalar Composer usando curl em seu Projeto:
@@ -51,4 +51,9 @@ O site packagist tem vários pacotes para uso, o site é:
 
 Após feito isso, instalar o var-dumper, usando o composer:
 - `composer require symfony/var-dumper`
+
+## Usar o composer para instalar o twig:
+
+Para instalar o twig use o composer:
+- `composer require twig/twig`
 	
