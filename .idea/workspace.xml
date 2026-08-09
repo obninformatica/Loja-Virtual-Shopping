@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="398c7f49-6744-4ca7-960f-80a094bb85e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectMysqliDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectPdoDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Interfaces/InterfaceConnectDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Interfaces/InterfaceTypeDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeMysqliDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypePdoDatabase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LojaVirtualShopping.iws" />
@@ -31,31 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Classes/Template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="102" max-vertical-offset="476">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions_twig.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Functions/functions_twig.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
               <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/Site/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5" vertical-offset="1111" max-vertical-offset="1836">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -105,31 +85,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectMysqliDatabase.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectMysqliDatabase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectMysqliDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71823204" vertical-offset="176" max-vertical-offset="459">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="176" max-vertical-offset="459">
               <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/Site/ProdutoController.php">
+      <file leaf-file-name="InterfaceTypeDatabase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Interfaces/InterfaceTypeDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="136" max-vertical-offset="442">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.7307693" vertical-offset="159" max-vertical-offset="340">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="TypePdoDatabase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypePdoDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="111.80769" vertical-offset="2907" max-vertical-offset="8041">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="238">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeMysqliDatabase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeMysqliDatabase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeDatabase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeDatabase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,6 +166,10 @@
         <option value="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectPdoDatabase.php" />
         <option value="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/Connection.php" />
         <option value="$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectMysqliDatabase.php" />
+        <option value="$PROJECT_DIR$/App/Interfaces/InterfaceTypeDatabase.php" />
+        <option value="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypePdoDatabase.php" />
+        <option value="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeMysqliDatabase.php" />
+        <option value="$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeDatabase.php" />
       </list>
     </option>
   </component>
@@ -174,8 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="179" />
+    <option name="x" value="155" />
+    <option name="y" value="320" />
     <option name="width" value="1260" />
     <option name="height" value="340" />
   </component>
@@ -305,6 +309,10 @@
               <option name="myItemId" value="Database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeDatabase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -325,10 +333,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConnectDatabase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,7 +433,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="179" width="1260" height="340" extended-state="1" />
+    <frame x="155" y="320" width="1260" height="340" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -474,40 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Views/Admin/admin_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="595">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/Site/site_home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -879,8 +849,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Database/ConnectDatabase/ConnectMysqliDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71823204" vertical-offset="176" max-vertical-offset="459">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="176" max-vertical-offset="459">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Interfaces/InterfaceTypeDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7307693" vertical-offset="159" max-vertical-offset="340">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeMysqliDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypeDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Database/TypeDatabase/TypePdoDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="238">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
