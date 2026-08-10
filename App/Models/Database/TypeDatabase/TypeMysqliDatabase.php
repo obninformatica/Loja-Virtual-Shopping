@@ -41,12 +41,12 @@ class TypeMysqliDatabase implements InterfaceTypeDatabase
 
     public function rowCount()
     {
-        $this->objectMysqli->num_rows();
+        return $this->objectMysqli->num_rows();
     }
 
     public function fetch()
     {
-        $this->objectMysqli->get_result()->fetch_object();
+        return $this->objectMysqli->get_result()->fetch_object();
     }
 
     public function fetchAll()

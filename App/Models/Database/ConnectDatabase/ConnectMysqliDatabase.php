@@ -16,7 +16,7 @@ class ConnectMysqliDatabase implements InterfaceConnectDatabase
 
     public function __construct()
     {
-        $this->mysqli = new \Mysqli("localhost","root"," ","loja_phpoo");
+        $this->mysqli = new \Mysqli("localhost","root","","loja_phpoo");
     }
 
     public function connectDatabase()

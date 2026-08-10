@@ -8,20 +8,26 @@
 namespace App\Controllers\Site;
 
 use App\Controllers\BaseController;
+use App\Models\Site\User;
 
 class HomeController extends BaseController
 {
 
     public function index()
     {
-        $dados =
-            [
-                'titulo' => 'Curso PHPOO | Loja Virtual',
-                'nome' => 'Osvaldo Bodo'
-            ];
+        $user = new User();
+        dump($user->fetchAll());
+        dump($user->find('id', 4));
 
-        $template = $this->twig->load('site_home.html');
-        $template->display($dados);
+
+//        $dados =
+//            [
+//                'titulo' => 'Curso PHPOO | Loja Virtual',
+//                'nome' => 'Osvaldo Bodo'
+//            ];
+//
+//        $template = $this->twig->load('site_home.html');
+//        $template->display($dados);
     }
 
 }
