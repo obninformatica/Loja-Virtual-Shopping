@@ -14,7 +14,7 @@ use App\Models\Database\TypeDatabase\TypeDatabase;
 
 class Model
 {
-    private $typeDatabase;
+    public $typeDatabase;
 
     public function __construct()
     {

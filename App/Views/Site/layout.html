@@ -37,13 +37,15 @@
 					<input class="newsletter" type="text" name="newsletter" value="Seu Email"/>
 					<a class="join" href="">Cadastrar Email</a>
 					<div class="banner_adds">
-						<a href=""><!-- banner promoção, propaganda --></a>
-					</div>
+					<a href="">
+						<img src="{{ site_url() }}/assets/images/bann2.jpg" alt="" border="0"/>
+					</a>
+				</div>
 				</div>
 			</div><!-- End left_content -->
 			
 			<div class="center_content">
-				{% block content %}{% end block %}
+				{% block content %}{% endblock %}
 			</div><!-- End center_content -->
 			
 			<div class="right_content">
@@ -55,8 +57,10 @@
 						<span class="price"><!-- Total de compras do carrinho --></span>
 					</div>
 					<div class="cart_icon">
+						<a href="#" title="header=[Checkout] body=[&nbsp] fade=[on]">
+							<img src="{{ site_url() }}/assets/images/shoppingcart.png" alt="" width="48"height="48" border="0" />
+						</a>
 						<!-- icone do carrinho -->
-						<a href="" title="header=[Checkout] body=[&nbsp;] fade=[on]"></a>
 					</div>
 				</div><!-- End shopping_cart -->
 				
@@ -69,9 +73,11 @@
                     </div>
                 </div>
                 <div class="title_box">Marcas</div><!-- include das marcas -->
-                <div class="banner_ads">
-                    <!-- banner de promocao, propaganda -->
-                </div>
+                <div class="banner_adds">
+					<a href="#">
+						<img src="{{ site_url() }}/assets/images/bann1.jpg" alt="" border="0" />
+					</a>
+				</div>
 
 			</div><!-- End right_content -->
 		
@@ -79,12 +85,12 @@
 		
 		<div class="footer">
 			<div class="left_footer">
-				<img src="images/footer_logo.png" alt="" width="170" height="49"/>
+				<!-- imagem footer -->
+				<img src="{{ site_url() }}/assets/images/footer_logo.png" alt="" width="170" height="49" />
 			</div>
 			<div class="center_footer">
-                Loja asolucoesweb. Todos direitos reservados {{ 'now' | date('d/m/Y') }} <br/>
-                <img src="images/csscreme.jpg" alt="csscreme" border="0" /><br />
-				<img src="images/payment.gif" alt="" />
+				Loja asolucoesweb.Todos direitos reservados {{ 'now' | date('d/m/Y') }} <br/>
+				<img src="{{ site_url() }}/assets/images/payment.gif" alt="" />
 			</div>
 			<div class="right_footer">
 				<a href="/">home</a>

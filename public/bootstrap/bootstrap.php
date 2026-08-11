@@ -9,6 +9,7 @@ $twig = $template->init();
 
 //dump('http://'.$_SERVER['SERVER_NAME']);
 
+// Chamando as funcções do functionsTwig
 $twig->addFunction($site_url);
 
 
