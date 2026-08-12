@@ -13,10 +13,18 @@
     <div id="main_container">
         <div class="top_bar">
             <!-- include do top -->
+			{% include 'includes/site_topbar.html' %}
 		</div><!-- End top_bar -->
+
+		<div id="header">
+			<!-- include do header -->
+			{% include 'includes/site_header.html' %}
+		</div><!-- End header -->	
+		
 		<div id="main_content">
 			<div id="menu_tab">
 				<!-- Include do menu -->
+				{% include 'includes/site_menu.html' %}
 			</div><!-- End menu_tab -->
 			<div class="crumb_navigation">
 				<!-- breadcrumb -->
@@ -25,6 +33,7 @@
 				<div class="title_box">Categorias</div>
 				<ul class="left_menu">
 					<!-- include left_menu -->
+					{% include 'includes/site_left_menu.html' %}
 				</ul>
 				<div class="title_box">Promoção</div>
 				<div class="border_box">

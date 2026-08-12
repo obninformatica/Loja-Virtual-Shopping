@@ -19,8 +19,8 @@ class HomeController extends BaseController
         //$user = new UserModel();
         //dump($user->fetchAll());
         //dump($user->find('id', 4));
-        $produtoRepository = new ProdutoRepository();
-        dump($produtoRepository->listarProdutosOrdenadosComLimite(3));
+        //$produtoRepository = new ProdutoRepository();
+        //dump($produtoRepository->listarProdutosOrdenadosComLimite(3));
 
 
         $dados =
