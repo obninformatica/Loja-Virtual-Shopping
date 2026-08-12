@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="398c7f49-6744-4ca7-960f-80a094bb85e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/Site/Includes/search.html" afterPath="$PROJECT_DIR$/App/Views/Site/Includes/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
     </list>
     <ignored path="LojaVirtualShopping.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,35 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="748">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding>
-                <element signature="e#113#166#0#PHP" expanded="true" />
-                <marker date="1786419780154" expanded="true" signature="601:615" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="601:629" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="845:859" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="845:873" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="845:880" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="845:881" placeholder="select * fro..." />
-                <marker date="1786419780154" expanded="true" signature="845:890" placeholder="select * fro..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProdutoModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Site/ProdutoModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProdutoRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Repositories/Site/ProdutoRepository.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,11 +104,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/Site/Includes/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5586854" vertical-offset="0" max-vertical-offset="255">
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
               <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="748">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64016736" vertical-offset="0" max-vertical-offset="11033">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -192,6 +183,7 @@
         <option value="$PROJECT_DIR$/App/Views/Site/layout.html" />
         <option value="$PROJECT_DIR$/App/Views/Site/Includes/site_header.html" />
         <option value="$PROJECT_DIR$/App/Views/Site/Includes/search.html" />
+        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -200,8 +192,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="430" />
+    <option name="x" value="109" />
+    <option name="y" value="351" />
     <option name="width" value="1260" />
     <option name="height" value="372" />
   </component>
@@ -258,6 +250,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,7 +697,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="430" width="1260" height="372" extended-state="0" />
+    <frame x="109" y="351" width="1260" height="372" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -692,13 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Classes/Redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221">
@@ -891,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="748">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Interfaces/InterfaceConnectDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
@@ -999,13 +1035,13 @@
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="e#113#166#0#PHP" expanded="true" />
-            <marker date="1786419780154" expanded="true" signature="601:615" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="601:629" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="845:859" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="845:873" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="845:880" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="845:881" placeholder="select * fro..." />
-            <marker date="1786419780154" expanded="true" signature="845:890" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1786419780154" expanded="true" signature="-1:-1" placeholder="select * fro..." />
           </folding>
         </state>
       </provider>
@@ -1082,8 +1118,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/Site/Includes/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5586854" vertical-offset="0" max-vertical-offset="255">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="748">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64016736" vertical-offset="0" max-vertical-offset="11033">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
