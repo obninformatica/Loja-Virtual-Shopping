@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13/08/2026 às 00:11
+-- Tempo de geração: 09/08/2026 às 14:08
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -163,9 +163,9 @@ INSERT INTO `produtos` (`id`, `produto_nome`, `produto_valor`, `produto_slug`, `
 (2, 'Celular Iphone 5S', 3000.45, 'celular-iphone-5S', 'descricao iphone 5S', 'assets/images/produtos/iphone5s_new.png', 1, 2045.32, 1, 1, NULL, 1),
 (3, 'Celular Iphone 6S', 4000.00, 'celular-iphone-6S', 'descricao iphone 6S', 'assets/images/produtos/iphone6s_new.png', 2, NULL, 1, 1, NULL, 1),
 (4, 'Celular LG Leon', 2500.00, 'celular-lg-leon', 'Smartphone LG Leon H326TV TV Digital 8GB 5.0 MP 2 Chips Android 5.0 (Lollipop)', 'assets/images/produtos/Smartphone_LG_Leon_H326TV.png', 1, 1200.00, 1, 3, 1, NULL),
-(5, 'Macbook Pro', 10000.00, 'macbook-pro', 'Apple Macbook Pro 2018 TouchBar - Core i5 | Quad Core | 256GB SSD | 8GB LPDDR3 | 13.3\" Cinza Espacial', 'assets/images/produtos/macbook_pro_2018.png', 1, 2000.00, 3, 1, NULL, 1),
-(6, 'Radeon', 300.00, 'placa-video-radeon', 'RX Vega 7 é uma GPU integrada aos processadores ou APUs (processador + GPU) da AMD. A GTX 1650 da Nvidia é uma placa de vídeo dedicada do segmento de entrada. Ela pode ser uma alternativa mais em conta para quem procura uma solução para jogos em HD ou mesmo Full HD com níveis gráficos mais baixos. Além de aparecer em uma opção para desktops por valores a partir de R$ 929, a GTX 1650 também é uma placa muito popular no segmento mobile, equipando boa parte dos notebooks voltados ao segmento gamer disponíveis no mercado brasileiro.', 'assets/images/produtos/GeforceRadeon_GTX.png', 2, NULL, 4, 4, NULL, NULL),
-(7, 'Geforce gts250', 550.00, 'placa-video-gforce', 'Lançada há algum tempo pela XFX, a placa de vídeos Geforce GTS 250 vem conquistando vários jogadores devido a ótima relação entre o bom desempenho que ela entrega e o seu custo relativamente baixo. Utilizando o chip G92 da NVidia e com 512 Mb de memória DDR3 a 1.100Mhz e uma interface entre a GPU e os módulos de memória de 256 bits, a placa mostra um desempenho sólido para um jogador casual ou até mesmo para jogadores mais fanáticos.\n\nA história do chip G92 é um pouco curiosa. Inicialmente, ele chegou ao mercado com a linha 9800 GTS da Nvidia. Quando a empresa lançou a nova linha de produtos, ela preferiu relançar o chip como uma opção com um custo baixo, mas com o desempenho da placa top da geração anterior. Fabricado no processo de 65nm e com mais de setecentos e cinquenta milhões de transistores, a placa consegue transferir mais de setenta gigabytes por segundo entre sua GPU e os módulos de memória. Some a isso 128 shaders unificados rodando a mais de 1.800Mhz, a própria GPU rodando a 738Mhz e você terá uma placa de vídeo ótima, até mesmo para os jogos mais modernos.', 'assets/images/produtos/geforce_gts_250.png', 1, 150.00, 4, 5, 1, 1);
+(5, 'Macbook Pro', 10000.00, 'macbook-pro', 'Apple Macbook Pro 2018 TouchBar - Core i5 | Quad Core | 256GB SSD | 8GB LPDDR3 | 13.3\" Cinza Espacial', 'assets/images/produtos/macbook_pro_2018.png', 1, 2000.00, 5, 1, NULL, 1),
+(6, 'Radeon', 300.00, 'placa-video-radeon', 'RX Vega 7 é uma GPU integrada aos processadores ou APUs (processador + GPU) da AMD. A GTX 1650 da Nvidia é uma placa de vídeo dedicada do segmento de entrada. Ela pode ser uma alternativa mais em conta para quem procura uma solução para jogos em HD ou mesmo Full HD com níveis gráficos mais baixos. Além de aparecer em uma opção para desktops por valores a partir de R$ 929, a GTX 1650 também é uma placa muito popular no segmento mobile, equipando boa parte dos notebooks voltados ao segmento gamer disponíveis no mercado brasileiro.', 'assets/images/produtos/GeforceRadeon_GTX.png', NULL, NULL, 6, 4, NULL, NULL),
+(7, 'Geforce gts250', 550.00, 'placa-video-gforce', 'Lançada há algum tempo pela XFX, a placa de vídeos Geforce GTS 250 vem conquistando vários jogadores devido a ótima relação entre o bom desempenho que ela entrega e o seu custo relativamente baixo. Utilizando o chip G92 da NVidia e com 512 Mb de memória DDR3 a 1.100Mhz e uma interface entre a GPU e os módulos de memória de 256 bits, a placa mostra um desempenho sólido para um jogador casual ou até mesmo para jogadores mais fanáticos.\n\nA história do chip G92 é um pouco curiosa. Inicialmente, ele chegou ao mercado com a linha 9800 GTS da Nvidia. Quando a empresa lançou a nova linha de produtos, ela preferiu relançar o chip como uma opção com um custo baixo, mas com o desempenho da placa top da geração anterior. Fabricado no processo de 65nm e com mais de setecentos e cinquenta milhões de transistores, a placa consegue transferir mais de setenta gigabytes por segundo entre sua GPU e os módulos de memória. Some a isso 128 shaders unificados rodando a mais de 1.800Mhz, a própria GPU rodando a 738Mhz e você terá uma placa de vídeo ótima, até mesmo para os jogos mais modernos.', 'assets/images/produtos/geforce_gts_250.png', 1, 150.00, 6, 5, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -190,9 +190,7 @@ INSERT INTO `users` (`id`, `name`, `sobrenome`, `is_admin`, `email`, `password`)
 (1, 'Alexandre', 'Cardoso', '1', 'xandecar@hotmail.com', '123456'),
 (2, 'Sandra', 'Maria', '2', 'sandra@email.com.br', '123456789'),
 (3, 'Carlos', 'Augusto de Souza', '3', 'carlosaugusto@hotmail.com', '123456'),
-(4, 'Roberto', 'Costa', '4', 'roberto.costa@gmail.com', '123456'),
-(5, 'Renato', 'Souza Pires', '5', 'renatopires@hotmail.com', '20099668'),
-(6, 'Ricardo', 'Bueno Rosa', '6', 'ricardobuenorosa@gmail.com', '1609237844');
+(4, 'Roberto', 'Costa', '4', 'roberto.costa@gmail.com', '123456');
 
 --
 -- Índices para tabelas despejadas
@@ -296,7 +294,7 @@ ALTER TABLE `produtos`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

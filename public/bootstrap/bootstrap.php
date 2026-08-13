@@ -11,6 +11,7 @@ $twig = $template->init();
 
 // Chamando as funcções do functionsTwig
 $twig->addFunction($site_url);
+$twig->addFunction($categorias);
 
 
 /*
