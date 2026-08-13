@@ -21,12 +21,14 @@ class HomeController extends BaseController
         //dump($user->find('id', 4));
         //$produtoRepository = new ProdutoRepository();
         //dump($produtoRepository->listarProdutosOrdenadosComLimite(3));
+        $produtoRepository = new ProdutoRepository();
+        $produtosDestaque = $produtoRepository->listarProdutosOrdenadosPeloDestaque(6);
 
 
         $dados =
             [
                 'titulo' => 'Curso PHPOO | Loja Virtual',
-                'nome' => 'Osvaldo Bodo'
+                'produtos' => $produtosDestaque
             ];
 
         $template = $this->twig->load('site_home.html');

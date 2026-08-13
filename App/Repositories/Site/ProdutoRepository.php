@@ -18,7 +18,16 @@ class ProdutoRepository
         $this->produto = new ProdutoModel();
     }
 
-    public function listarProdutosOrdenadosComLimite($limite)
+    public function ultimoProdutoAdicionado()
+    {
+        $sql = "select produto_nome,produto_slug,produto_foto from {$this->produto->table} order by id DESC";
+        $this->produto->typeDatabase->prepare($sql);
+        $this->produto->typeDatabase->execute();
+        return $this->produto->typeDatabase->fetch();
+
+    }
+
+    public function listarProdutosOrdenadosPeloDestaque($limite)
     {
         $sql = "select * from {$this->produto->table} order by produto_destaque = 1 DESC limit {$limite}";
         $this->produto->typeDatabase->prepare($sql);

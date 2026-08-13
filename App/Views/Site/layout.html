@@ -54,40 +54,11 @@
 			</div><!-- End left_content -->
 			
 			<div class="center_content">
-				{% block content %}{% endblock %}
+				{% block site_content %}{% endblock %}
 			</div><!-- End center_content -->
 			
 			<div class="right_content">
-				<div class="shopping_cart">
-					<div class="cart_title">Carrinho de Compras</div>
-					<div class="cart_details">
-						<span id="products_cart"><!-- número de produtos no carrinho --></span> <br/>
-						<span class="border_cart"></span>Total:
-						<span class="price"><!-- Total de compras do carrinho --></span>
-					</div>
-					<div class="cart_icon">
-						<a href="#" title="header=[Checkout] body=[&nbsp] fade=[on]">
-							<img src="{{ site_url() }}/assets/images/shoppingcart.png" alt="" width="48"height="48" border="0" />
-						</a>
-						<!-- icone do carrinho -->
-					</div>
-				</div><!-- End shopping_cart -->
-				
-				<div class="title_box">Novidades</div>
-                <div class="border_box">
-                    <div class="product_title"><!-- titulo do produto novidade --></div>
-                    <div class="product_image"><!-- imagem do produto que e novidade --></div>
-                    <div class="prod_price">
-                        <div class="price"><!-- preco do produto que e novidade --></div>
-                    </div>
-                </div>
-                <div class="title_box">Marcas</div><!-- include das marcas -->
-                <div class="banner_adds">
-					<a href="#">
-						<img src="{{ site_url() }}/assets/images/bann1.jpg" alt="" border="0" />
-					</a>
-				</div>
-
+				{% include 'includes/site_right_menu.html' %}
 			</div><!-- End right_content -->
 		
 		</div><!-- End main_content -->
