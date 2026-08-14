@@ -28,6 +28,21 @@
             <br/> R$ {{ produto.produto_valor | number_format(2,',','.') }}
         {% endif %}
     </div>
+    <div class="bottom_prod_box"></div>
+    <div class="prod_details_tab">
+        {% if (produto.produto_destaque == 1) %}
+        <a href="#" title="header=[Destaque] body=[&nbsp;] fade=[on]">
+            <img class="left_bt" src="{{ site_url() }}/assets/images/favs.gif" alt="" border="0" />
+        </a>
+        {% endif %}
+
+        {% if (produto.produto_presente == 1) %}
+        <a href="#" title="header=[Presente] body=[&nbsp;] fade=[on]">
+            <img class="left_bt" src="{{ site_url() }}/assets/images/presente.ico" alt="" border="0" />
+        </a>
+        {% endif %}
+
+    </div>
 </div>
 {% endfor %}
 
@@ -56,6 +71,21 @@
         {% else %}
         <br/> R$ {{ produtoPromocao.produto_valor | number_format(2,',','.') }}
         {% endif %}
+    </div>
+    <div class="bottom_prod_box"></div>
+    <div class="prod_details_tab">
+        {% if (produtoPromocao.produto_destaque == 1) %}
+        <a href="#" title="header=[Destaque] body=[&nbsp;] fade=[on]">
+            <img class="left_bt" src="{{ site_url() }}/assets/images/favs.gif" alt="" border="0" />
+        </a>
+        {% endif %}
+
+        {% if (produtoPromocao.produto_presente == 1) %}
+        <a href="#" title="header=[Presente] body=[&nbsp;] fade=[on]">
+            <img class="left_bt" src="{{ site_url() }}/assets/images/presente.ico" alt="" border="0" />
+        </a>
+        {% endif %}
+
     </div>
 </div>
 
