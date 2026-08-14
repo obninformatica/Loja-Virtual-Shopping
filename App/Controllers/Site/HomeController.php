@@ -16,19 +16,18 @@ class HomeController extends BaseController
 
     public function index()
     {
-        //$user = new UserModel();
-        //dump($user->fetchAll());
-        //dump($user->find('id', 4));
-        //$produtoRepository = new ProdutoRepository();
-        //dump($produtoRepository->listarProdutosOrdenadosComLimite(3));
+//      listar pelo destque
         $produtoRepository = new ProdutoRepository();
         $produtosDestaque = $produtoRepository->listarProdutosOrdenadosPeloDestaque(6);
 
+//      listar pela promoção
+        $produtosPromocao = $produtoRepository->listarProdutosPromocao(6);
 
         $dados =
             [
                 'titulo' => 'Curso PHPOO | Loja Virtual',
-                'produtos' => $produtosDestaque
+                'produtos' => $produtosDestaque,
+                'produtosPromocao' => $produtosPromocao
             ];
 
         $template = $this->twig->load('site_home.html');

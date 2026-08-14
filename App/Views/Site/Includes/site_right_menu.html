@@ -27,7 +27,15 @@
 
     </div>
 	<div class="prod_price">
-		<div class="price"><!-- preco do produto que e novidade --></div>
+		<!--<div class="price"> preco do produto que e novidade </div>-->
+		{% if(novidade().produto_promocao) == 1 %}
+        <span class="reduce">
+            R$ {{ novidade().produto_valor | number_format(2,',','.') }}
+        </span>
+		<br/> R$ {{ novidade().produto_valor_promocao | number_format(2,',','.') }}
+		{% else %}
+		<br/> R$ {{ novidade().produto_valor | number_format(2,',','.') }}
+		{% endif %}
 	</div>
 </div>
 
