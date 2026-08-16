@@ -38,9 +38,27 @@
 				</ul>
 				<div class="title_box">Promoção</div>
 				<div class="border_box">
-					<div class="product_title"><!-- nome do produto em promoção --></div>
-					<div class="product_image"><!-- imagem do produto em promoção --></div>
-					<div class="prod_price"><!-- preço do produto --></div>
+					{% for promocao in promocao() %}
+					<div class="product_title">
+						<!-- nome do produto em promoção -->
+						{{ promocao.produto_nome }}
+					</div>
+					<div class="product_image">
+						<!-- imagem do produto em promoção -->
+						<img src="{{ site_url() }}/{{ promocao.produto_foto }}" width="90" height="90" alt=""/>
+					</div>
+					<div class="prod_price">
+						<!-- preço do produto -->
+						{% if(promocao.produto_promocao) == 1 %}
+						<span class="reduce">
+							R$ {{ promocao.produto_valor | number_format(2,',','.') }}
+						</span>
+						<br/> R$ {{ promocao.produto_valor_promocao | number_format(2,',','.') }}
+						{% else %}
+						<br/> R$ {{ promocao.produto_valor | number_format(2,',','.') }}
+						{% endif %}
+					</div>
+					{% endfor %}
 				</div>
 				<div class="title_box">Newsletter</div>
 				<div class="border_box">

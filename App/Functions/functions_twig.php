@@ -18,3 +18,10 @@ $novidade = new \Twig\TwigFunction('novidade', function(){
     $produtoRepository = new ProdutoRepository();
     return $produtoRepository->ultimoProdutoAdicionado();
 });
+
+// Listar produto em promoção
+$promocao = new \Twig\TwigFunction('promocao', function(){
+    $produtoRepository = new ProdutoRepository();
+    return $produtoRepository->listarProdutosPromocao(1);
+});
+

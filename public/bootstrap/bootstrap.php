@@ -13,6 +13,7 @@ $twig = $template->init();
 $twig->addFunction($site_url);
 $twig->addFunction($categorias);
 $twig->addFunction($novidade);
+$twig->addFunction($promocao);
 
 
 /*

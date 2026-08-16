@@ -38,7 +38,7 @@ class ProdutoRepository
 //  listar os produtos em promoção
     public function listarProdutosPromocao($limite)
     {
-        $sql = "select * from {$this->produto->table} where produto_promocao = 1 limit {$limite}";
+        $sql = "select * from {$this->produto->table} where produto_promocao = 1 order by RAND() limit {$limite}";
         $this->produto->typeDatabase->prepare($sql);
         $this->produto->typeDatabase->execute();
         return $this->produto->typeDatabase->fetchAll();
