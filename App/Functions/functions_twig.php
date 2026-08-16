@@ -2,6 +2,7 @@
 
 use App\Repositories\Site\CategoriaRepository;
 use App\Repositories\Site\ProdutoRepository;
+use App\Classes\BreadCrumb;
 
 $site_url = new \Twig\TwigFunction('site_url', function(){
     return 'http://'.$_SERVER['SERVER_NAME'];
@@ -23,5 +24,11 @@ $novidade = new \Twig\TwigFunction('novidade', function(){
 $promocao = new \Twig\TwigFunction('promocao', function(){
     $produtoRepository = new ProdutoRepository();
     return $produtoRepository->listarProdutosPromocao(1);
+});
+
+// breadcrumb
+$breadCrumb = new \Twig\TwigFunction('breadCrumb', function(){
+    $breadCrumb = new BreadCrumb();
+    return $breadCrumb->createBreadCrumb();
 });
 

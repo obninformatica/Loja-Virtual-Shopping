@@ -1,9 +1,5 @@
-*
-{
-font-family: 'Roboto', sans-serif;
-}
-body
-{
+*{font-family: 'Roboto', sans-serif;}
+body{
 background:url(/assets/images/bg.jpg) no-repeat #fff center top;
 padding:0;
 font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -14,6 +10,14 @@ color:#202020;
 p{
 padding:2px;
 margin:0px;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	background: lightblue;
+	font-style: italic;
+	padding: 15px;
+	color: white;
 }
 #main_container{
 width:1000px;
@@ -35,29 +39,74 @@ float:right;
 /*border: dashed 2px;*/
 background:url(/assets/images/top_search_bg.gif) no-repeat center;
 }
+/*
+Forma Resumida (Shorthand):
+Um valor (margin: 10px;): Aplica aos quatro lados.
+Dois valores (margin: 10px 20px;): O primeiro para cima e baixo, o segundo para direita e esquerda.
+Quatro valores (margin: 10px 15px 20px 25px;): Segue a ordem topo, direita, baixo, esquerda (sentido horário).
+Centralizar blocos (margin: 0 auto;): O auto faz o navegador calcular o espaço horizontal automático, útil para centralizar elementos.
+*/
+.button {
+	border: 1px;
+	border-radius: 5px;
+	color: #161719;
+	margin:4px 2px 2px 6px;
+/*	margin-left: 4px;
+	margin-right: 4px;
+*/
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+/*	margin: 4px 2px; */
+	cursor: pointer;
+}
+.btn {background-color: lightblue;}
+.button1 {background-color: #04AA6D;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+
 input.search_input{
 width:182px;
 height:18px;
 float:left;
 margin:5px 0 0 0 ;
+border-radius: 5px;
 border:1px solid #dbdbdb;
 border-bottom-color:#604020;
 border-right-color:#806040;
 }
 .search_text{
 float:left;
-width:100px;
-padding:8px 0 0 15px;
-color:#999999;
+width:80px;
+padding:8px 5px 15px 15px;
+color:#666666;
 }
 .search_text a{
 text-decoration:none;
-color:#999999;
+color:#444444;
+}
+.search_text a:hover{
+	padding:2px 2px 2px 2px;
+	background-color: lightblue;
 }
 .search_bt{
 float:left;
 padding:2px 0 0 15px;
 }
+/*
+.btn{
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.btn a{
+	cursor: pointer;
+}
+.btn a:hover{
+	color: #ffffff;
+	background-color: lightblue;
+}
+*/
 .languages{
 float:right;
 width:200px;
@@ -118,7 +167,8 @@ padding:0 0 0 30px;
 .oferta_text{
 padding:5px 0 5px 0;
 font-size:12px;
-color:#FFFFFF;
+/*color:#FFFFFF;*/
+color:#103020;
 text-align:justify;
 line-height:15px;
 }
