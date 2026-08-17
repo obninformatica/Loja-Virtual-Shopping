@@ -1,8 +1,8 @@
 {% extends 'layout.html' %}
 
 {% block site_content %}
-
-<div class="center_title_bar">Últimos produtos adicionados</div>
+<h2 class="center_title_bar">Ultimos produtos adicionados</h2>
+<!--<div class="center_title_bar">Últimos produtos adicionados</div>-->
 {% for produto in produtos %}
 <div class="prod_box">
     <div class="top_prod_box"></div>
@@ -48,8 +48,8 @@
     </div>
 </div>
 {% endfor %}
-
-<div class="center_title_bar">Produtos em Promoção</div>
+<h2 class="center_title_bar">Produtos em Promoção</h2>
+<!--<div class="center_title_bar">Produtos em Promoção</div>-->
 {% for produtoPromocao in produtosPromocao %}
 <div class="prod_box">
     <div class="top_prod_box"></div>
