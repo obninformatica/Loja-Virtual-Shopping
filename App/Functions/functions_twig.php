@@ -3,6 +3,8 @@
 use App\Repositories\Site\CategoriaRepository;
 use App\Repositories\Site\ProdutoRepository;
 use App\Classes\BreadCrumb;
+use App\Models\Site\MarcaModel;
+use App\Models\Site\CategoriaModel;
 
 $site_url = new \Twig\TwigFunction('site_url', function(){
     return 'http://'.$_SERVER['SERVER_NAME'];
@@ -10,9 +12,16 @@ $site_url = new \Twig\TwigFunction('site_url', function(){
 
 // Listar as categorias no left menu
 $categorias = new \Twig\TwigFunction('categorias', function(){
-    $categoriaRepository = new CategoriaRepository();
-    return $categoriaRepository->listarCategoriasProdutos();
+    $categoriaModel = new CategoriaModel();
+    return $categoriaModel->fetchAll();
 });
+
+// Listar as marcas
+$marcas = new \Twig\TwigFunction('marcas', function(){
+    $marcaModel = new MarcaModel();
+    return $marcaModel->fetchAll();
+});
+
 
 // Listar as novidades no right menu
 $novidade = new \Twig\TwigFunction('novidade', function(){

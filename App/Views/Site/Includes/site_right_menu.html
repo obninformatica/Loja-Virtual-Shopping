@@ -41,14 +41,31 @@
 
 <div class="title_box">Marcas</div>
 <!-- include das marcas -->
+<div class="banner_ads">
+	{% set i=0 %}
+	<ul class="left_menu">
+	{% for marca in  marcas() %}
+	{% if (i%2 == 0) %}
+	{% set cor = 'even' %}
+	{% else %}
+	{% set cor = 'odd' %}
+	{% endif %}
+	<li class="{{ cor }}">
+		<a href="/marca/{{ marca.marca_slug }}">{{ marca.marca_nome }}</a>
+	</li>
+	{% set i = i+1 %}
+	{% endfor %}
+	</ul>
+</div>
+<!--
 <div class="border_box">
-	<div class="product_title"><!-- titulo do produto marca --></div>
-	<div class="product_image"><!-- imagem do produto que e novidade --></div>
+	<div class="product_title"><!-- titulo do produto marca --</div>
+	<div class="product_image"><!-- imagem do produto que e novidade --</div>
 	<div class="prod_price">
-		<div class="price"><!-- preco do produto que e novidade --></div>
+		<div class="price"><!-- preco do produto que e novidade --</div>
 	</div>
-</div
-
+</div>
+-->
 <div class="banner_adds">
 	<a href="#">
 		<img src="{{ site_url() }}/assets/images/bann1.jpg" alt="" border="0" />
