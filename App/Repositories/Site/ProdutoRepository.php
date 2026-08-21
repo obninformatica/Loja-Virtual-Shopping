@@ -16,7 +16,8 @@ class ProdutoRepository
     public function __construct()
     {
         $this->produto = new ProdutoModel();
-    }
+    }// end construct
+
 //  listar o ultimo produto adicionado
     public function ultimoProdutoAdicionado()
     {
@@ -24,8 +25,8 @@ class ProdutoRepository
         $this->produto->typeDatabase->prepare($sql);
         $this->produto->typeDatabase->execute();
         return $this->produto->typeDatabase->fetch();
+    }// end ultimoProdutoAdicionado
 
-    }
 //  listar os produtos em destaque
     public function listarProdutosOrdenadosPeloDestaque($limite)
     {
@@ -33,8 +34,8 @@ class ProdutoRepository
         $this->produto->typeDatabase->prepare($sql);
         $this->produto->typeDatabase->execute();
         return $this->produto->typeDatabase->fetchAll();
+    }// end listarProdutosOrdenadosPeloDestaque
 
-    }
 //  listar os produtos em promoção
     public function listarProdutosPromocao($limite)
     {
@@ -42,6 +43,17 @@ class ProdutoRepository
         $this->produto->typeDatabase->prepare($sql);
         $this->produto->typeDatabase->execute();
         return $this->produto->typeDatabase->fetchAll();
-    }
+    }// end listarProdutosPromocao
 
-}
+//      buscar produto
+    public function buscarProduto($busca)
+    {
+        $sql = "select * from {$this->produto->table} where produto_nome like ? or produto_descricao like ?";
+        $this->produto->typeDatabase->prepare($sql);
+        $this->produto->typeDatabase->bindValue(1,'%'.$busca.'%');
+        $this->produto->typeDatabase->bindValue(2,'%'.$busca.'%');
+        $this->produto->typeDatabase->execute();
+        return $this->produto->typeDatabase->fetchAll();
+    }// end buscarProduto
+
+}// end class

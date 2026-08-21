@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b0f57ea799d063bcf5f33bb5f65a741e1ec4a509',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,11 +11,20 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b0f57ea799d063bcf5f33bb5f65a741e1ec4a509',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'jarouche/viacep' => array(
+            'pretty_version' => 'v1.2',
+            'version' => '1.2.0.0',
+            'reference' => 'c1396de696c16c85db0e124a9e7cf9146901f087',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jarouche/viacep',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

@@ -28,6 +28,10 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
         ),
+        'J' =>
+        array (
+            'Jarouche\\ViaCEP\\' => 16,
+        ),
         'A' =>
         array (
             'App\\Repositories\\' => 17,
@@ -54,6 +58,10 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
         'Symfony\\Component\\VarDumper\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Jarouche\\ViaCEP\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/jarouche/viacep/src',
         ),
         'App\\Repositories\\' =>
         array (

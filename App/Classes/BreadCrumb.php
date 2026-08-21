@@ -25,7 +25,8 @@ class BreadCrumb
         if(substr_count($this->uri, '?') > 0)
         {
             $explodeIgual = explode('=',$this->uri);
-            return "<span style='color:#000;'>Você está buscando:</span><span style='font-style: italic;color: #00aced'><a href='/' style='text-decoration: none;color: #00aced'>Inicio</a>".str_replace('+','-',$explodeIgual[1])."</span>";
+            //return "<span style='color:#000;'>Você está buscando:</span><span style='font-style: italic;color: #00aced'><a href='/' style='text-decoration: none;color: #00aced'>Inicio</a>".str_replace('+','-',$explodeIgual[1])."</span>";
+            return "<span style='color:#000;'>Você está buscando:&nbsp;</span><span style='font-style: italic;color: #00aced'>".str_replace('+','-',$explodeIgual[1])."</span>";
         }
 //      breadcrumb para a página inicial
 		if($this->uri == '/')

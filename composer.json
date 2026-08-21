@@ -1,7 +1,8 @@
 {
     "require": {
         "symfony/var-dumper": "^7.4",
-        "twig/twig": "^3.28"
+        "twig/twig": "^3.28",
+        "jarouche/viacep": "^1.2"
     },
     "autoload":{
         "psr-4":{
