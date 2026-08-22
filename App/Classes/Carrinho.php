@@ -37,21 +37,35 @@ class Carrinho
 
     public function update($id, $qtd)
     {
-
+        if($this->statusCarrinho->produtoEstaNoCarrinho($id))
+        {
+            $_SESSION['carrinho'][$id] = $qtd;
+        }
     }
 
     public function remove($id)
     {
-
+        if($this->statusCarrinho->produtoEstaNoCarrinho($id))
+        {
+            unset($_SESSION['carrinho'][$id]);
+        }
     }
 
     public function clear()
     {
+        if($this->statusCarrinho->carrinhoExiste())
+        {
+            unset($_SESSION['carrinho']);
+        }
 
     }
 
     public function produtosCarrinho()
     {
-        
+        if($this->statusCarrinho->carrinhoExiste())
+        {
+            return $this->statusCarrinho->carrinho();
+        }
+
     }
 }

@@ -6,8 +6,960 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="398c7f49-6744-4ca7-960f-80a094bb85e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Classes/Carrinho.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/Site/HomeController.php" afterPath="$PROJECT_DIR$/App/Controllers/Site/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/site/carrinho.js" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.babelrc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.browserslistrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.bundlewatch.config.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.cspell.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\CODEOWNERS" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\ISSUE_TEMPLATE\bug_report.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\ISSUE_TEMPLATE\config.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\ISSUE_TEMPLATE\feature_request.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\SUPPORT.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\codeql\codeql-config.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\dependabot.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\release-drafter.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\browserstack.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\bundlewatch.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\calibreapp-image-actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\codeql.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\cspell.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\css.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\docs.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\issue-close-require.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\issue-labeled.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\js.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\lint.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\node-sass.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\publish-nuget.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\release-notes.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.github\workflows\scorecard.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.prettierignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.stylelintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.stylelintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.vscode\extensions.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\.vscode\settings.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\CODE_OF_CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\SECURITY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\banner.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\build-plugins.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\change-version.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\docs-prep.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\generate-sri.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\postcss.config.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\rollup.config.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\vnu-jar.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\build\zip-examples.mjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\config.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.rtl.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.rtl.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\css\bootstrap.rtl.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.esm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.esm.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.esm.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.esm.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\dist\js\bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\alert.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\base-component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\base-component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\button.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\carousel.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\collapse.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\data.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\event-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\event-handler.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\manipulator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\manipulator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\selector-engine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dom\selector-engine.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\dropdown.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\modal.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\offcanvas.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\popover.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\scrollspy.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\tab.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\toast.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\toast.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\tooltip.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\backdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\backdrop.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\component-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\component-functions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\config.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\focustrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\focustrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\sanitizer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\sanitizer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\scrollbar.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\swipe.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\template-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\dist\util\template-factory.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\index.esm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\index.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\base-component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\dom\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\dom\event-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\dom\manipulator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\dom\selector-engine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\toast.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\backdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\component-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\focustrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\sanitizer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\src\util\template-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\browsers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\helpers\fixture.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\integration\bundle-modularity.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\integration\bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\integration\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\integration\rollup.bundle-modularity.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\integration\rollup.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\alert.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\base-component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\button.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\carousel.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\collapse.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\dom\data.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\dom\event-handler.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\dom\manipulator.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\dom\selector-engine.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\dropdown.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\jquery.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\modal.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\offcanvas.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\popover.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\scrollspy.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\tab.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\toast.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\tooltip.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\backdrop.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\component-functions.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\config.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\focustrap.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\index.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\sanitizer.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\scrollbar.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\swipe.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\unit\util\template-factory.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\alert.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\button.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\floating-label.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\input.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\modal.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\popover.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\tab.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\toast.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\js\tests\visual\tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\nuget\bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\nuget\bootstrap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\nuget\bootstrap.sass.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\package.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_accordion.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_card.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_containers.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_images.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_maps.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_offcanvas.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_placeholders.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_root.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_spinners.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_toasts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_variables-dark.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\bootstrap-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\bootstrap-reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\bootstrap-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_floating-labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_form-check.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_form-control.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_form-range.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_form-select.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_form-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\forms\_validation.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_color-bg.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_colored-links.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_focus-ring.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_icon-link.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_ratio.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_stacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_stretched-link.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_text-truncation.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_visually-hidden.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\helpers\_vr.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_banner.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_box-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_caret.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_color-mode.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_color-scheme.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_container.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_deprecate.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_table-variants.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_text-truncate.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\mixins\_visually-hidden.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_auto-import-of-variables-dark.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_box-shadow.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_color-contrast.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_color-modes.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_media-query-color-mode-full.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\mixins\_utilities.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\sass-true\register.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\sass-true\runner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\tests\utilities\_api.test.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\utilities\_api.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\scss\vendor\_rfs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\.prettierrc.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\astro.config.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\breakpoints.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\colors.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\docs-versions.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\examples.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\grays.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\icons.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\plugins.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\sidebar.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\theme-colors.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\data\translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\postcss.config.cjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\album-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\album\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\badges\badges.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\badges\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\blog-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\blog\blog.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\blog\blog.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\blog\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\breadcrumbs\breadcrumbs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\breadcrumbs\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\buttons\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\carousel-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\carousel\carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\carousel\carousel.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\carousel\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cheatsheet-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cheatsheet\cheatsheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cheatsheet\cheatsheet.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cheatsheet\cheatsheet.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cheatsheet\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\checkout-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\checkout\checkout.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\checkout\checkout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\checkout\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cover\cover.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\cover\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard-rtl\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard-rtl\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard\dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard\dashboard.rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dashboard\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dropdowns\dropdowns.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\dropdowns\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\features\features.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\features\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\features\unsplash-photo-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\features\unsplash-photo-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\features\unsplash-photo-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\footers\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\grid\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\grid\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\headers\headers.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\headers\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\heroes\bootstrap-docs.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\heroes\bootstrap-themes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\heroes\heroes.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\heroes\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\jumbotron\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\jumbotrons\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\jumbotrons\jumbotrons.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\list-groups\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\list-groups\list-groups.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\masonry\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\modals\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\modals\modals.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbar-bottom\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbar-fixed\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbar-fixed\navbar-fixed.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbar-static\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbar-static\navbar-static.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbars-offcanvas\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbars-offcanvas\navbars-offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbars\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\navbars\navbars.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\offcanvas-navbar\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\offcanvas-navbar\offcanvas-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\offcanvas-navbar\offcanvas-navbar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\pricing\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\pricing\pricing.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\product\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\product\product.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sidebars\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sidebars\sidebars.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sidebars\sidebars.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sign-in\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sign-in\sign-in.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\starter-template\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sticky-footer-navbar\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sticky-footer-navbar\sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sticky-footer\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\examples\sticky-footer\sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\partials\sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\partials\snippets.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\search.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\snippets.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\assets\stackblitz.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\Ads.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\DocsScripts.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\DocsSidebar.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\Scripts.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\TableOfContents.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\footer\Footer.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Analytics.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Favicons.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Head.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Scss.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\ScssProd.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Social.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\head\Stylesheet.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\header\Header.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\header\LinkItem.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\header\Navigation.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\header\Skippy.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\header\Versions.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\CSSVariables.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\ComponentUtilities.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\Customize.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\GetStarted.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\Icons.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\MastHead.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\home\Plugins.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\BootstrapWhiteFillIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\CircleSquareIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\DropletFillIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\GitHubIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\HamburgerIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\OpenCollectiveIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\Symbols.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\icons\XIcon.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\AddedIn.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\BsTable.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\Callout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\CalloutDeprecatedDarkVariants.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\Code.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\DeprecatedIn.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\Example.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\GuideFooter.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\JsDataAttributes.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\JsDismiss.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\JsDocs.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\Placeholder.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\ScssDocs.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\Table.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\components\shortcodes\TableContent.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\danger-async-methods.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\info-mediaqueries-breakpoints.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\info-npm-starter.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\info-prefersreducedmotion.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\info-sanitizer.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\warning-color-assistive-technologies.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\warning-data-bs-title-vs-title.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\callouts\warning-input-support.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\config.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\about\brand.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\about\license.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\about\overview.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\about\team.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\about\translations.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\accordion.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\alerts.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\badge.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\breadcrumb.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\button-group.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\buttons.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\card.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\carousel.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\close-button.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\collapse.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\dropdowns.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\list-group.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\modal.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\navbar.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\navs-tabs.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\offcanvas.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\pagination.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\placeholders.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\popovers.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\progress.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\scrollspy.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\spinners.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\toasts.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\components\tooltips.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\content\figures.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\content\images.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\content\reboot.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\content\tables.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\content\typography.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\color-modes.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\color.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\components.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\css-variables.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\optimize.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\options.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\overview.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\customize\sass.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\docsref.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\extend\approach.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\extend\icons.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\checks-radios.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\floating-labels.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\form-control.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\input-group.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\layout.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\overview.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\range.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\select.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\forms\validation.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\accessibility.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\best-practices.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\browsers-devices.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\contents.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\contribute.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\download.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\introduction.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\javascript.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\parcel.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\rfs.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\rtl.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\vite.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\getting-started\webpack.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\clearfix.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\color-background.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\colored-links.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\focus-ring.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\icon-link.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\position.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\ratio.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\stacks.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\stretched-link.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\text-truncation.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\vertical-rule.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\helpers\visually-hidden.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\breakpoints.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\columns.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\containers.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\css-grid.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\grid.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\gutters.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\utilities.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\layout\z-index.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\migration.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\api.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\background.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\borders.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\colors.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\display.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\flex.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\float.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\interactions.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\link.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\object-fit.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\opacity.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\overflow.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\position.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\shadows.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\sizing.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\spacing.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\text.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\vertical-align.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\visibility.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\content\docs\utilities\z-index.mdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\env.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\BaseLayout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\DocsLayout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\ExamplesLayout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\RedirectLayout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\SingleLayout.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\partials\ExamplesMain.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\partials\Icons.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\partials\ResponsiveImage.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\layouts\partials\ThemeToggler.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\astro.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\bootstrap.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\config.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\content.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\data.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\examples.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\icon.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\image.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\layout.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\path.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\placeholder.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\prism.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\rehype.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\remark.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\toc.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\utils.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\libs\validation.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\404.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\[...alias].astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\[version]\[...slug].astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\[version]\examples\[...asset].ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\[version]\examples\[...example].astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\[version]\examples\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\[version]\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\docs\versions.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\examples.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\index.astro" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\pages\robots.txt.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\plugins\algolia-plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\plugins\stackblitz-plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_ads.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_anchor.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_brand.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_callouts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_clipboard-js.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_component-examples.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_content.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_masthead.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_placeholder-img.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_scrolling.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_search.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_skippy.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_syntax.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_toc.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\docs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\scss\docs_search.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\types\auto-import.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\src\types\window.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\CNAME" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-logo-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-logo-shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-logo-shadow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-logo-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\brand\bootstrap-social.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-icons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-intellisense-autocomplete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-themes-collage.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-themes-collage@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-themes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\bootstrap-themes@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\album-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\album-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\album.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\album@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\badges.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\badges@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\blog-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\blog-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\blog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\blog@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\breadcrumbs.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\breadcrumbs@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\buttons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\carousel-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\carousel-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\carousel@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cheatsheet-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cheatsheet-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cheatsheet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cheatsheet@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\checkout-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\checkout-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\checkout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\checkout@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\cover@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dashboard-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dashboard-rtl@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dashboard@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dropdowns.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\dropdowns@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\features.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\features@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\footers.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\footers@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\grid@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\headers.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\headers@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\heroes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\heroes@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\jumbotron.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\jumbotron@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\jumbotrons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\jumbotrons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\list-groups.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\list-groups@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\masonry.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\masonry@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\modals.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\modals@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-bottom@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-fixed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-fixed@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-static.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbar-static@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbars-offcanvas.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbars-offcanvas@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbars.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\navbars@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\offcanvas-navbar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\offcanvas-navbar@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\pricing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\pricing@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\product.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\product@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sidebars.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sidebars@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sign-in.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sign-in@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\starter-template.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\starter-template@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sticky-footer-navbar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sticky-footer-navbar@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sticky-footer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\examples\sticky-footer@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\android-chrome-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\android-chrome-512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\favicons\safari-pinned-tab.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-parcel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-parcel@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-vite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-vite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-webpack.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\bootstrap-webpack@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\parcel-dev-server-bootstrap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\parcel-dev-server.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\vite-dev-server-bootstrap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\vite-dev-server.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\webpack-dev-server-bootstrap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\guides\webpack-dev-server.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\parcel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\vite.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\img\webpack.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\js\color-modes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\docs\[version]\assets\js\validate-forms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\static\sw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\bootstrap\site\tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.factory.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.factory.slim.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.module.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.module.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.slim.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.slim.module.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\jquery.slim.module.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\wrappers\jquery.node-module-wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist-module\wrappers\jquery.node-module-wrapper.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.factory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.factory.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\wrappers\jquery.bundler-require-wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\dist\wrappers\jquery.bundler-require-wrapper.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\load.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\var\location.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\attributes\attr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\attributes\classes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\attributes\prop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\attributes\val.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\DOMEval.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\access.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\camelCase.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\isArrayLike.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\isAttached.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\isObviousHtml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\nodeName.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\ready-no-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\ready.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\readyException.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\stripAndCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\toType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\cssCamelCase.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\finalPropName.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\isAutoPx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\isHiddenWithinTree.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\rcustomProp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\css\var\swap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\data\Data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\data\var\acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\data\var\dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\data\var\dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\deferred\exceptionHook.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\deprecated\ajax-event-alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\deprecated\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\effects\Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\event\trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\exports\amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\exports\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\domManip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\var\rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\var\rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\manipulation\wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\queue\delay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\createCache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\escapeSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\filterMatchExpr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\preFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\rbuggyQSA.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\selectorError.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\testContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\toSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\unescapeSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\uniqueSort.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\matches.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\pseudos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\rcomma.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\rdescend.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\rleadingCombinator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\rpseudo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\selector\var\rsibling.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\traversing\var\dir.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\traversing\var\siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\ObjectFunctionString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\arr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\document.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\flat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\fnToString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\getProto.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\isIE.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\isWindow.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\pop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\push.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\rnothtmlwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\rtrimCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\slice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\sort.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\splice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\toString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\var\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\wrapper-esm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\wrapper-factory-esm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\public_html\LojaVirtualShopping\bower_components\jquery\src\wrapper-factory.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Classes/Carrinho.php" afterPath="$PROJECT_DIR$/App/Classes/Carrinho.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/Site/site_home.html" afterPath="$PROJECT_DIR$/App/Views/Site/site_home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LojaVirtualShopping.iws" />
@@ -36,7 +988,7 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="833">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
@@ -46,7 +998,7 @@
       <file leaf-file-name="ProdutoRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Repositories/Site/ProdutoRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="816" max-vertical-offset="1020">
+            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1003">
               <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
               <folding>
                 <marker date="1787294479686" expanded="true" signature="423:568" placeholder="select produ..." />
@@ -63,7 +1015,7 @@
       <file leaf-file-name="site_busca.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/Site/site_busca.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-34.0" vertical-offset="0" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1037">
               <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -73,11 +1025,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Carrinho.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Carrinho.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Classes/Carrinho.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7702703" vertical-offset="719" max-vertical-offset="969">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state vertical-scroll-proportion="-1.7692307" vertical-offset="974" max-vertical-offset="1207">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -86,7 +1038,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Controllers/Site/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7307692" vertical-offset="326" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="663">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#123#148#0#PHP" expanded="true" />
@@ -98,7 +1050,7 @@
       <file leaf-file-name="StatusCarrinho.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Classes/StatusCarrinho.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="697">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
               <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
             </state>
@@ -108,9 +1060,36 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/Site/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1938">
+            <state vertical-scroll-proportion="46.615383" vertical-offset="1739" max-vertical-offset="1938">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site_home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/Site/site_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="459" max-vertical-offset="1819">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carrinho.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/site/carrinho.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8045977" vertical-offset="200" max-vertical-offset="595">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,7 +1102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/App/Classes/Template.php" />
         <option value="$PROJECT_DIR$/App/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Erro/ErroController.php" />
@@ -161,7 +1139,6 @@
         <option value="$PROJECT_DIR$/App/Views/Site/Includes/site_topbar.html" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
         <option value="$PROJECT_DIR$/App/Controllers/Site/DetalhesController.php" />
-        <option value="$PROJECT_DIR$/App/Views/Site/site_home.html" />
         <option value="$PROJECT_DIR$/App/Views/Site/site_detalhes.html" />
         <option value="$PROJECT_DIR$/App/Models/Site/MarcaModel.php" />
         <option value="$PROJECT_DIR$/public/bootstrap/bootstrap.php" />
@@ -174,6 +1151,8 @@
         <option value="$PROJECT_DIR$/App/Views/Site/site_busca.html" />
         <option value="$PROJECT_DIR$/App/Controllers/Site/HomeController.php" />
         <option value="$PROJECT_DIR$/App/Classes/Carrinho.php" />
+        <option value="$PROJECT_DIR$/App/Views/Site/site_home.html" />
+        <option value="$PROJECT_DIR$/public/assets/js/site/carrinho.js" />
       </list>
     </option>
   </component>
@@ -182,8 +1161,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="357" />
+    <option name="x" value="55" />
+    <option name="y" value="474" />
     <option name="width" value="1260" />
     <option name="height" value="331" />
   </component>
@@ -277,6 +1256,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,15 +1271,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LojaVirtualShopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,9 +1469,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -474,6 +1476,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -492,7 +1497,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="357" width="1260" height="331" extended-state="0" />
+    <frame x="55" y="474" width="1260" height="331" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,13 +1512,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -537,16 +1542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.25" vertical-offset="595" max-vertical-offset="1105">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/Method.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.98139536" vertical-offset="265" max-vertical-offset="680">
@@ -773,14 +1768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/Site/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1938">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Classes/Parameters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3744856" vertical-offset="278" max-vertical-offset="799">
@@ -806,7 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51028806" vertical-offset="12" max-vertical-offset="272">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +1819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="833">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
@@ -843,22 +1829,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48397976" vertical-offset="70" max-vertical-offset="697">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/Site/site_busca.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.0" vertical-offset="0" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1037">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -867,26 +1843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/Site/site_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1819">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Functions/functions_twig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1486486" vertical-offset="153" max-vertical-offset="833">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="e#7#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,9 +1854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7432432" vertical-offset="36" max-vertical-offset="629">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#123#158#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +1874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/Site/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7307692" vertical-offset="326" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="663">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#123#148#0#PHP" expanded="true" />
@@ -927,7 +1884,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Classes/StatusCarrinho.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="697">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding />
         </state>
@@ -935,9 +1892,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Classes/Carrinho.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7702703" vertical-offset="719" max-vertical-offset="969">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state vertical-scroll-proportion="-1.7692307" vertical-offset="974" max-vertical-offset="1207">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Site/site_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="459" max-vertical-offset="1819">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Site/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="46.615383" vertical-offset="1739" max-vertical-offset="1938">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/carrinho.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8045977" vertical-offset="200" max-vertical-offset="595">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
