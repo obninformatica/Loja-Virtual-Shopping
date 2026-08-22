@@ -32,7 +32,7 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="833">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
@@ -86,7 +86,7 @@
       <file leaf-file-name="BuscaController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Controllers/Site/BuscaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="629">
+            <state vertical-scroll-proportion="-15.615385" vertical-offset="36" max-vertical-offset="629">
               <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="e#123#158#0#PHP" expanded="true" />
@@ -95,38 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_busca.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="site_busca.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Views/Site/site_busca.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.8461537" vertical-offset="289" max-vertical-offset="1037">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state vertical-scroll-proportion="1.4907252" vertical-offset="0" max-vertical-offset="1037">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BreadCrumb.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Classes/BreadCrumb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48397976" vertical-offset="189" max-vertical-offset="833">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <marker date="1787342850743" expanded="true" signature="503:514" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="555:588" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="609:645" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="743:754" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="801:834" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="920:931" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="968:1001" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1022:1059" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1266:1277" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1310:1343" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1650:1661" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1694:1727" placeholder="..." />
-                <marker date="1787342850743" expanded="true" signature="1748:1785" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -893,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="833">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
@@ -910,16 +886,6 @@
             <marker date="1787294479686" expanded="true" signature="1675:1689" placeholder="select * fro..." />
             <marker date="1787294479686" expanded="true" signature="1675:1712" placeholder="select * fro..." />
             <marker date="1787294479686" expanded="true" signature="1675:1766" placeholder="select * fro..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Site/BuscaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="629">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#123#158#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -945,35 +911,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/Site/site_busca.html">
+    <entry file="file://$PROJECT_DIR$/App/Classes/BreadCrumb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537" vertical-offset="289" max-vertical-offset="1037">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.48397976" vertical-offset="70" max-vertical-offset="697">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1787361854014" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Classes/BreadCrumb.php">
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Site/BuscaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48397976" vertical-offset="189" max-vertical-offset="833">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state vertical-scroll-proportion="-15.615385" vertical-offset="36" max-vertical-offset="629">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
-            <marker date="1787342850743" expanded="true" signature="503:514" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="555:588" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="609:645" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="743:754" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="801:834" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="920:931" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="968:1001" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1022:1059" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1266:1277" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1310:1343" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1650:1661" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1694:1727" placeholder="..." />
-            <marker date="1787342850743" expanded="true" signature="1748:1785" placeholder="..." />
+            <element signature="e#123#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Site/site_busca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4907252" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
