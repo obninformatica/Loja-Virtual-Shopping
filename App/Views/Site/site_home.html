@@ -77,7 +77,7 @@
     </div>
     <div class="bottom_prod_box"></div>
     <div class="prod_details_tab">
-        <a href="#" class="btn-add-carrinho" title="header=[Adicionar no carrinho] body=[&nbsp;] fade=[on]">
+        <a href="#" class="btn-add-carrinho" data-id="{{ produtoPromocao.id }}" title="header=[Adicionar no carrinho] body=[&nbsp;] fade=[on]">
             <img src="{{ site_url() }}/assets/images/cart.gif" alt="" class="left_bt" />
         </a>
         {% if (produtoPromocao.produto_destaque == 1) %}

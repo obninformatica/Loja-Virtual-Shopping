@@ -16,7 +16,7 @@ $(document).ready(function(){
         var idProduto = $(this).attr('data-id');
         //console.log(idProduto);
 
-        S.ajax({
+        $.ajax({
             url:'/carrinho/add/'+idProduto,
             type:'POST',
             success:function(retorno){
