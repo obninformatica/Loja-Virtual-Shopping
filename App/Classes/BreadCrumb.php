@@ -26,14 +26,16 @@ class BreadCrumb
         {
             $explodeIgual = explode('=',$this->uri);
             //return "<span style='color:#000;'>Você está buscando:</span><span style='font-style: italic;color: #00aced'><a href='/' style='text-decoration: none;color: #00aced'>Inicio</a>".str_replace('+','-',$explodeIgual[1])."</span>";
-            return "<span style='color:#000;'>Você está buscando:&nbsp;</span><span style='font-style: italic;color: #00aced'>".str_replace('+','-',$explodeIgual[1])."</span>";
+            //return "<span style='color:#000;'>Você está buscando:&nbsp;</span><span style='font-style: italic;color: #00aced'>".str_replace('+','-',$explodeIgual[1])."</span>";
+            return "<span style='color:#000;'>Navegação&nbsp;</span><span style='font-style: italic;color: #00aced'><a href='/' style='text-decoration: none;color: #00aced;'>Inicio</a>".str_replace('+','-',$explodeIgual[1]).(ltrim($this->uri. '/'))."</span>";
         }
+
 //      breadcrumb para a página inicial
 		if($this->uri == '/')
         {
             return "<span style='color:#000;'>Navegação</span>: <span style='font-style: italic;color: #00aced'>Inicio</span>";
         }
-//      breadcrumb para outras páginas intertnas do site
+//      breadcrumb para outras páginas internas do site
 //        return "<span style='color:#000;'>Navegação</span>: <span style='font-style: italic;'><a href='/' style='text-decoration: none;'>Inicio</a>".ucfirst(ltrim($this->uri. '/'))."</span>";
         return "<span style='color:#000;'>Navegação</span>: <span style='font-style: italic;color: #00aced'><a href='/' style='text-decoration: none;color: #00aced;'>Inicio</a>".ltrim($this->uri. '/')."</span>";
 		
