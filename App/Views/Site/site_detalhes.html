@@ -16,7 +16,7 @@
     {% endif %}
 </div>
 <div class="prod_details_tab">
-    <a href="#" class="btn-add-carrinho" title="header=[Adicionar no carrinho] body=[&nbsp;] fade=[on]">
+    <a href="#" class="btn-add-carrinho" data-id="{{ produto.id }}" title="header=[Adicionar no carrinho] body=[&nbsp;] fade=[on]">
         <img src="{{ site_url() }}/assets/images/cart.gif" alt="" class="left_bt" />
     </a>
     {% if (produto.produto_destaque == 1) %}
