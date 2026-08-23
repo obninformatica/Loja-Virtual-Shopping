@@ -17,8 +17,10 @@ $(document).ready(function(){
             success: function(retorno)
             {
                 console.log(retorno);
+                numeral.locale('pt-br');
                 products_cart.html(retorno.numeroProdutosCarrinho);
-                price_cart.html('R$ '+retorno.valorProdutosCarrinho.toLocaleString('pt-BR'));
+                price_cart.html(numeral(retorno.valorProdutosCarrinho).format('$0,0.00'));
+                //price_cart.html('R$ '+retorno.valorProdutosCarrinho.toLocaleString('pt-BR'));
             }
         });
     }
