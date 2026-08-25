@@ -28,6 +28,10 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
         ),
+        'P' =>
+        array (
+            'PhpQuery\\' => 9,
+        ),
         'J' =>
         array (
             'Jarouche\\ViaCEP\\' => 16,
@@ -59,6 +63,10 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
+        'PhpQuery\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/cagartner/phpquery/src',
+        ),
         'Jarouche\\ViaCEP\\' =>
         array (
             0 => __DIR__ . '/..' . '/jarouche/viacep/src',
@@ -85,6 +93,23 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'S' =>
+        array (
+            'Sabberworm\\CSS' =>
+            array (
+                0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib',
+            ),
+        ),
+        'C' =>
+        array (
+            'Cagartner\\CorreiosConsulta' =>
+            array (
+                0 => __DIR__ . '/..' . '/cagartner/correios-consulta/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -94,6 +119,7 @@ class ComposerStaticInit3b990a3b161733a00017ceac743f1b7a
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit3b990a3b161733a00017ceac743f1b7a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3b990a3b161733a00017ceac743f1b7a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit3b990a3b161733a00017ceac743f1b7a::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit3b990a3b161733a00017ceac743f1b7a::$classMap;
 
         }, null, ClassLoader::class);

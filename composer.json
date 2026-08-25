@@ -2,7 +2,8 @@
     "require": {
         "symfony/var-dumper": "^7.4",
         "twig/twig": "^3.28",
-        "jarouche/viacep": "^1.2"
+        "jarouche/viacep": "^1.2",
+        "cagartner/correios-consulta": "^0.3.0"
     },
     "autoload":{
         "psr-4":{
